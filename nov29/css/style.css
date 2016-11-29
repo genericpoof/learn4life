@@ -1,0 +1,39 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css?family=Averia+Libre');
+body{
+  font-family: 'open' ,sans-serif;
+}
+section {
+ background-color: magenta;
+ padding: 15px;
+  }
+i.fa{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50);
+}
+section::after{
+    clear:both;
+    display:block;
+    content: '';
+
+  }
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.btn {
+  background-color: hsl(306, 63%, 14%);
+  color: white;
+  padding: 10px 25px;
+  border-radius: 3px;
+  border: 1px solid hsl(306, 63%, 14%);
+  text-transform: uppercase;
+}
+div {
+  width: 50%;
+  float: left;
+}
+div img {
+  width: 100;
+}
