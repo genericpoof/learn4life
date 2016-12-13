@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+body {
+ background-image: url('../img/Protest_LOWRESS_1548-1701x1111-c-default.jpg');
+ height: 100px;
+ width: 100%;
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+h1 {
+  margin-top: 115px;
+  font-family: 'Nunito Sans', sans-serif;
+  color: white;
+}
+div {
+  display: inline-block;
+  padding: 15px;
+}
+  #playboy {
+    /*display:block;*/
+    background-color: hsl(201, 15%, 78%);
+
+  }
