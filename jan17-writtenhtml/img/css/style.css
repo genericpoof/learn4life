@@ -10,3 +10,6 @@ div {
   width: 50%;
   margin-left: 300px;
 }
+body {
+  background-color: red;
+}
