@@ -1,0 +1,55 @@
+body{
+  background-color: black;
+}
+section{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 70px 90px 70px 90px;
+}
+div{
+  background-color: hsl(240,6%,13%);
+  border: 5px solid black;
+  width: 30%;
+  height: 400px;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.taxi{
+  width: 100%;
+}
+
+p{
+  color: white;
+}
+h2{
+  color: white;
+}
+.learn{
+  background-color: lightgreen;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 50px;
+
+
+}
+.learn2{
+background-color: hsl(263,47%,85%);
+border: 1px solid black;
+border-radius: 5px;
+padding: 5px 50px;
+
+}
+.learn3{
+  background-color: hsl(174,44% ,61% );
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 50px;
+}
+
+.div2{
+width: 20%;
+}
+footer{
+text-align: center; 
+}
