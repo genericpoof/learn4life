@@ -1,32 +1,36 @@
+body{
+width: 100%;
+
+}
 div {
   margin: auto;
-  width: 100%;
+  /*width: 100%;*/
   text-align: left;
 }
 h1 {
-  margin: auto;
+  margin: 0 auto;
 }
-img{
-  width: 400px;
-}
+
 p {
-  width: 50%;
+  /*width: 50%;*/
   text-align: left;
 
 }
 .peanut {
-  float: right;
-
-}
-.beach{
-  width: 100px;
+  width: 50%;
 
 }
  li {
-  list-style: none;
-  padding: inherit;
+list-style: none;
 
 }
 .beach-babe{
-  float: right;s
+  float: right;
+  width: 45%;
+  margin-left: 50%;
+}
+section {
+  display: inline-block;
+  position: absolute;
+  width: 50%;
 }
