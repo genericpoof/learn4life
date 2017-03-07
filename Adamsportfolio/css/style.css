@@ -42,7 +42,40 @@ a {
   background-size: cover;
   list-style: none;
   text-decoration: none;
+
 }
 .dare {
-  
+background-color: hsla(0, 0%, 50%, .5);
+text-align: center;
+color: purple;
+background-image: url('../img/Baby-Ninja.gif');
+background-repeat: no-repeat;
+background-size: cover;
+}
+#fat{
+
+}
+
+#fat-pics {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px 0 5px 5px;
+  text-align: center;
+}
+#fat2{
+  margin: 1px 1px 1px 1px;
+  text-align: center;
+  background-image: url('../img/o0KQKjg.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  }
+}
+.fat3{
+width: 300px;
+}
+li {
+  list-style: none;
 }
