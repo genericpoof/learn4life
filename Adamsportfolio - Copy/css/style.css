@@ -1,0 +1,69 @@
+
+
+body{
+  background-image: url(http://hdwallpaperbackgrounds.net/wp-content/uploads/2015/10/geralt-witcher_3_wild_hunt-game-art-1600x900-wallpaper-hd.jpg);
+
+}
+h1 {
+  text-align: center;
+  color: green;
+}
+h2 {
+  color: white;
+  text-align: center;
+  margin-top: 200px;
+}
+p {
+  margin-top: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
+  color: white;
+
+}
+a {
+  border: solid 1px red;
+  background-image: url(https://pialosophy.files.wordpress.com/2012/04/rainbow.jpg);
+  color: white;
+  text-decoration: none;
+   margin-left: 150px;
+}
+
+.fa {
+  color: white;
+}
+.baby{
+
+}
+/*CONTACT PAGE*/
+
+#office {
+  background-image: url(../img/url-71.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.dare {
+text-align: center;
+color: white;
+background-repeat: no-repeat;
+background-size: cover;
+}
+#fat3{
+  background-image: url(../img/o0KQKjg.gif);
+  margin: 1px 1px 1px 1px;
+  background-repeat: no-repeat;
+}
+.krusty{
+  margin-top: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
+  color: white;
+
+}
+/*project page*/
+
+.krab2{
+  color:black;
+  text-decoration: none;
+  
+}
