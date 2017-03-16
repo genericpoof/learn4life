@@ -56,4 +56,5 @@ div{
     img {
       width: 100%;
       float: none;
+      margin-left: 0;
     }
