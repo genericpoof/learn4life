@@ -1,60 +1,67 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 100;
 
-body{
-  margin: 0;
 }
-h1{
-  font-family:@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+h1 {
+    font-size: 2.5em;
+    text-align: center;
+    padding-bottom: 24px;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 64px;
 }
-img{
-  width: 50%;
-  float: right;
-  margin: 0 0 25px 25px;
+h1, h2 {
+    font-weight: 400;
 }
-div{
-  padding: 100px 10%;
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
-@media screen and (min-width: 500px){
-    body{
-      background-color: brown;
-    }
+main {
+    padding: 64px 16%;
 }
-@media screen and (min-width: 1000px){
-    body{
-      background-color: pink;
-    }
+img {
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-top: 5px;
+
 }
-@media screen and (min-width: 750px){
-    body{
-      background-color: green;
-    }
+li{
+  padding: 0 0 120px 0;
+  display: flex;
+  align-items: center;
 }
-@media screen and (min-width: 300px){
-    body{
-      background-color: magenta;
-    }
+li:nth-child(odd) img {
+ order: 0;
+ margin-left: 24px;
 }
-@media screen and (min-width: 100px){
-    body{
-      background-color: red;
-    }
+li:nth-child(even) img {
+  order: 1;
+  margin-left: 24px;
 }
-@media screen and (min-width: 1000px){
-    body{
-      background-color: magenta;
-    }
+@media screen and (max-width:1000px){
+  li{
+    display:flex;
+    flex-direction: column;
+  }
+  li img{
+    order: 0 !important;
+  }
+  img{
+    width: 80%;
+  }
 }
-@media screen and (min-width: 1000px){
-    body{
-      background-color: magenta;
-    }
+@media screen and (min-width:1100px){
+ li {
+   width: 50%;
+   flex-direction: column;
+   text-align: center;
+ }
+ li:nth-child(even){
+   float: right;
+   flex-direction: column-reverse;
+   text-align: center;
+ }
 }
-@media screen and (max-width: 1000px){
-    h1{
-     font-size: 3em;
-     line-height: 1.5;
-    }
-    img {
-      width: 100%;
-      float: none;
-      margin-left: 0;
-    }
