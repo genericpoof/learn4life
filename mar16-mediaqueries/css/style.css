@@ -13,3 +13,47 @@ img{
 div{
   padding: 100px 10%;
 }
+@media screen and (min-width: 500px){
+    body{
+      background-color: brown;
+    }
+}
+@media screen and (min-width: 1000px){
+    body{
+      background-color: pink;
+    }
+}
+@media screen and (min-width: 750px){
+    body{
+      background-color: green;
+    }
+}
+@media screen and (min-width: 300px){
+    body{
+      background-color: magenta;
+    }
+}
+@media screen and (min-width: 100px){
+    body{
+      background-color: red;
+    }
+}
+@media screen and (min-width: 1000px){
+    body{
+      background-color: magenta;
+    }
+}
+@media screen and (min-width: 1000px){
+    body{
+      background-color: magenta;
+    }
+}
+@media screen and (max-width: 1000px){
+    h1{
+     font-size: 3em;
+     line-height: 1.5;
+    }
+    img {
+      width: 100%;
+      float: none;
+    }
