@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:800');
+
+body{
+  background-image: url('../img/dark magenta.jpg');
+  background-size: cover;
+}
+.Dark{
+  text-align: center;
+  margin: 150px 0 0 0;
+  font-size: 100px;
+  font-family: 'Dosis', sans-serif;
+}
+p{
+  font-size: 20px;
+  font-family: 'Dosis', sans-serif;
+  text-align: center;
+}
