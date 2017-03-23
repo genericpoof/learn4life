@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis:800');
 
 body{
-  background-image: url('../img/dark magenta.jpg');
+  background-image: url('../img/I Love Music Wallpapers (2).jpeg');
   background-size: cover;
+  width: 100%;
 }
 .Dark{
   text-align: center;
