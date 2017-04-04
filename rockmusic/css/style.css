@@ -1,8 +1,8 @@
 body{
-  background-image: url('../img/Funny-Rock-Music-Wallpaper-Android.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
+  background-color: white;
 }
 h1{
   color: red;
@@ -11,9 +11,14 @@ h1{
 p {
   text-align: right;
   color: red;
-  display: flex;
-  flex-flow: row;
+  /*display: flex;
+  flex-flow: wrap;
+  /*margin: 75px 10px 0 0;*/
 }
+div{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  }
 header{
   margin:0;
 }
@@ -22,6 +27,15 @@ nav{
   margin: 0 25% 0 25%;
   background-color: white;
 }
-img{
-  width: 30%;
+div {
+
+}
+.left {
+  display: flex;
+  margin-right: 1em;
+}
+
+.right {
+  float: right;
+  margin-left: 1em;
 }
